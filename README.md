@@ -59,18 +59,6 @@ Cliente → GET /users → API → Banco de dados → API → JSON de resposta
 
 ## FastAPI
 
-FastAPI é um framework em Python para criação de APIs rápidas, modernas e bem documentadas.
-
-Principais vantagens:
-- Alta performance
-- Validação automática de dados
-- Documentação automática (Swagger)
-- Fácil integração com banco de dados
-
----
-
-## FastAPI
-
 Framework moderno e rápido para construção de APIs em Python. Auxilia os desenvolvedores na construção de aplicativo de forma rápida e eficiente, possui recursos que facilitam a criação dos aplicativos da Web, como por exemplo, tratamento de erros, documentos de API interativos e validação automática de dados.
 
 
