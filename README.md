@@ -40,6 +40,7 @@ API REST segue um conjunto de regras e diretrizes relacionados a criação de um
    -
 
 Exemplo de fluxo REST:
+
 Cliente → GET /users → API → Banco de dados → API → JSON de resposta
 
 ---
@@ -72,6 +73,24 @@ Principais vantagens:
 
 ## FastAPI
 
+Framework moderno e rápido para construção de APIs em Python. Auxilia os desenvolvedores na construção de aplicativo de forma rápida e eficiente, possui recursos que facilitam a criação dos aplicativos da Web, como por exemplo, tratamento de erros, documentos de API interativos e validação automática de dados.
+
+
+### API Simples
+
+Criação de um ambiente virtual
+
+```cmd
+python -m venv venv
+venv\Scripts\activate  # Windows
+```
+
+
+```cmd
+pip install fastapi uvicorn
+```
+
+API
 
 
 ```python
@@ -79,11 +98,24 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/")
-def home():
-    return {"message": "API funcionando"}
+# Rota 1
+@app.get("/vendas")
+def mensagem():
+    return {"Vendas do mês"}
+
+# Rota 2
+@app.get("/items/{item_id}")
+def ler_item(item_id: int, q: str = None):
+    return {"item_id: item_id, "query":q}
 ```
 
+Execução
+
+```cmd
+uvicorn main:app --reload
+```
+
+Acessar ''http://127.0.0.1:8000'' no navegador para visualizar a reposta JSON. E para ver a documentação automática da API interativa, acessar ''http://127.0.0.1:8000/docs''. Os dois estão no localhost. 
 
 ## 🔹 Exemplo de fluxo REST
 
