@@ -99,7 +99,7 @@ Execução
 uvicorn main:app --reload
 ```
 
-Acessar 'http://127.0.0.1:8000' no navegador para visualizar a reposta JSON. E para ver a documentação automática da API interativa, acessar 'http://127.0.0.1:8000/docs'. Os dois estão no localhost. 
+Acessar http://127.0.0.1:8000 no navegador para visualizar a reposta JSON. E para ver a documentação automática da API interativa, acessar http://127.0.0.1:8000/docs. Os dois estão no localhost. 
 
 ## Exemplo de fluxo REST
 
