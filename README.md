@@ -52,8 +52,6 @@ Cliente → GET /users → API → Banco de dados → API → JSON de resposta
 | PUT | Atualizar dados |
 | DELETE | Remover dados |
 
----
-
 
 ---
 
