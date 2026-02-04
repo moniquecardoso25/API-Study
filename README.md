@@ -28,7 +28,7 @@ API REST segue um conjunto de regras e diretrizes relacionados a criação de um
 3. Cachable (Cacheável)
    -  As respostas da API REST precisam ser cacheadas, indicando se ela pode ou não ser armazenadas em cache pelo cliente ou por um servidor de cache intermediário. Isso melhora a performance e reduz a carga do servidor.
      
-     Feito através de cabeçalhos HTTP na resposta : 'Cache-Control' e 'Expires'.
+     Feito através de cabeçalhos HTTP na resposta : Cache-Control e Expires.
   
 4. Interface Uniforme
    - 
