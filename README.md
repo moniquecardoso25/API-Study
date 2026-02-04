@@ -85,7 +85,7 @@ app = FastAPI()
 # Rota 1
 @app.get("/vendas")
 def mensagem():
-    return {"Vendas do mês"}
+    return {"mensagem": "Vendas do mês"}
 
 # Rota 2
 @app.get("/items/{item_id}")
@@ -99,7 +99,7 @@ Execução
 uvicorn main:app --reload
 ```
 
-Acessar http://127.0.0.1:8000 no navegador para visualizar a reposta JSON. E para ver a documentação automática da API interativa, acessar http://127.0.0.1:8000/docs. Os dois estão no localhost. 
+Acessar http://127.0.0.1:8000/vendas no navegador para visualizar a reposta JSON. E para ver a documentação automática da API interativa, acessar http://127.0.0.1:8000/vendas/docs. Os dois estão no localhost. 
 
 ## Exemplo de fluxo REST
 
