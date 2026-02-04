@@ -43,7 +43,7 @@ Cliente → GET /users → API → Banco de dados → API → JSON de resposta
 
 ---
 
-## 🔹 Métodos HTTP mais usados
+## Métodos HTTP mais usados
 
 | Método | Uso |
 |------|----|
@@ -57,7 +57,7 @@ Cliente → GET /users → API → Banco de dados → API → JSON de resposta
 
 ---
 
-## 🔹 FastAPI
+## FastAPI
 
 FastAPI é um framework em Python para criação de APIs rápidas, modernas e bem documentadas.
 
