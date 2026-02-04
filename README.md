@@ -31,13 +31,11 @@ API REST segue um conjunto de regras e diretrizes relacionados a criação de um
      Feito através de cabeçalhos HTTP na resposta : Cache-Control e Expires.
   
 4. Interface Uniforme
-   - 
-
+   
 5. Sistema de Camadas (Layared System)
-   -
-
+   
 6. Código sob Demanda (Opcional)
-   -
+   
 
 Exemplo de fluxo REST:
 
